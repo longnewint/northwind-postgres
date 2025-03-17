@@ -1,7 +1,6 @@
 --
 -- Northwind database init
 --
--- Random comment from main
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
