@@ -2,7 +2,6 @@
 -- Northwind database dump
 --
 
-
 INSERT INTO order_details VALUES (10248, 11, 14, 12, 0);
 INSERT INTO order_details VALUES (10248, 42, 9.80000019, 10, 0);
 INSERT INTO order_details VALUES (10248, 72, 34.7999992, 5, 0);
