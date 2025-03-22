@@ -1,6 +1,7 @@
 --
 -- Northwind database dump
 --
+-- C1
 
 
 INSERT INTO categories VALUES (1, 'Beverages', 'Soft drinks, coffees, teas, beers, and ales', '\x');
