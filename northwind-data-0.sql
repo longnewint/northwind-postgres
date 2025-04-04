@@ -2,6 +2,7 @@
 -- Northwind database dump
 --
 -- cm0
+-- cm1
 
 INSERT INTO categories VALUES (1, 'Beverages', 'Soft drinks, coffees, teas, beers, and ales', '\x');
 INSERT INTO categories VALUES (2, 'Condiments', 'Sweet and savory sauces, relishes, spreads, and seasonings', '\x');
