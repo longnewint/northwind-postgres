@@ -15,7 +15,6 @@ SET default_with_oids = false;
 --
 -- drop tables
 --
-
 DROP TABLE IF EXISTS customer_customer_demo;
 DROP TABLE IF EXISTS customer_demographics;
 DROP TABLE IF EXISTS employee_territories;
@@ -31,9 +30,7 @@ DROP TABLE IF EXISTS categories;
 DROP TABLE IF EXISTS region;
 DROP TABLE IF EXISTS employees;
 
-
 -- Comment
-
 CREATE TABLE categories (
   category_id smallint NOT NULL PRIMARY KEY,
   category_name varchar(15) NOT NULL,
@@ -41,6 +38,7 @@ CREATE TABLE categories (
   picture bytea
 );
 
+--
 CREATE TABLE suppliers (
   supplier_id smallint NOT NULL PRIMARY KEY,
   company_name varchar(40) NOT NULL,
