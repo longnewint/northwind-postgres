@@ -54,12 +54,14 @@ CREATE TABLE suppliers (
   homepage text
 );
 
+--
 CREATE TABLE shippers (
     shipper_id smallint NOT NULL PRIMARY KEY,
     company_name varchar(40) NOT NULL,
     phone varchar(24)
 );
 
+--
 CREATE TABLE region (
     region_id smallint NOT NULL PRIMARY KEY,
     region_description varchar(60) NOT NULL
