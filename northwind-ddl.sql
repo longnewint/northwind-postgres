@@ -141,6 +141,7 @@ CREATE TABLE customer_demographics (
   customer_desc text
 );
 
+--
 CREATE TABLE customer_customer_demo (
   customer_id varchar(5) NOT NULL,
   customer_type_id varchar(5) NOT NULL,
@@ -150,7 +151,6 @@ CREATE TABLE customer_customer_demo (
 );
 
 -- Comment
-
 CREATE TABLE orders (
   order_id smallint NOT NULL PRIMARY KEY,
   customer_id varchar(5),
