@@ -171,6 +171,7 @@ CREATE TABLE orders (
   FOREIGN KEY (ship_via) REFERENCES shippers
 );
 
+--
 CREATE TABLE order_details (
   order_id smallint NOT NULL,
   product_id smallint NOT NULL,
@@ -182,9 +183,7 @@ CREATE TABLE order_details (
   FOREIGN KEY (order_id) REFERENCES orders
 );
 
-
-
-
+--
 CREATE TABLE us_states (
     state_id smallint NOT NULL PRIMARY KEY,
     state_name varchar(100),
