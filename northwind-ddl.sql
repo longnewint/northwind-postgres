@@ -67,6 +67,7 @@ CREATE TABLE region (
     region_description varchar(60) NOT NULL
 );
 
+--
 CREATE TABLE territories (
     territory_id varchar(20) NOT NULL PRIMARY KEY,
     territory_description varchar(60) NOT NULL,
@@ -75,7 +76,6 @@ CREATE TABLE territories (
 );
 
 -- Comment
-
 CREATE TABLE employees (
   employee_id smallint NOT NULL PRIMARY KEY,
   last_name varchar(20) NOT NULL,
@@ -97,6 +97,7 @@ CREATE TABLE employees (
   photo_path varchar(255)
 );
 
+--
 CREATE TABLE employee_territories (
   employee_id smallint NOT NULL,
   territory_id varchar(20) NOT NULL,
@@ -105,6 +106,7 @@ CREATE TABLE employee_territories (
   FOREIGN KEY (employee_id) REFERENCES employees
 );
 
+--
 CREATE TABLE products (
   product_id smallint NOT NULL PRIMARY KEY,
   product_name varchar(40) NOT NULL,
@@ -121,7 +123,6 @@ FOREIGN KEY (supplier_id) REFERENCES suppliers
 );
 
 -- Comment
-
 CREATE TABLE customers (
   customer_id varchar(5) NOT NULL PRIMARY KEY,
   company_name varchar(40) NOT NULL,
@@ -136,6 +137,7 @@ CREATE TABLE customers (
   fax varchar(24)
 );
 
+--
 CREATE TABLE customer_demographics (
   customer_type_id varchar(5) NOT NULL PRIMARY KEY,
   customer_desc text
