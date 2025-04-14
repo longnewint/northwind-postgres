@@ -2159,10 +2159,6 @@ INSERT INTO order_details VALUES (11077, 75, 7.75, 4, 0);
 INSERT INTO order_details VALUES (11077, 77, 13, 2, 0);
 
 
-
-
-
-
 INSERT INTO us_states VALUES (1, 'Alabama', 'AL', 'south');
 INSERT INTO us_states VALUES (2, 'Alaska', 'AK', 'north');
 INSERT INTO us_states VALUES (3, 'Arizona', 'AZ', 'west');
@@ -2214,5 +2210,4 @@ INSERT INTO us_states VALUES (48, 'Washington', 'WA', 'west');
 INSERT INTO us_states VALUES (49, 'West Virginia', 'WV', 'south');
 INSERT INTO us_states VALUES (50, 'Wisconsin', 'WI', 'midwest');
 INSERT INTO us_states VALUES (51, 'Wyoming', 'WY', 'west');
-
 
