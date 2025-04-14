@@ -192,3 +192,4 @@ CREATE TABLE us_states (
     state_abbr varchar(2),
     state_region varchar(50)
 );
+
