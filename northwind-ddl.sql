@@ -1,10 +1,6 @@
 --
 -- Northwind database init
 --
--- c0
--- c1
--- c2
--- c3
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
