@@ -7,6 +7,7 @@
 -- c3
 -- c4
 -- c5
+-- c6
 
 INSERT INTO order_details VALUES (10248, 11, 14, 12, 0);
 INSERT INTO order_details VALUES (10248, 42, 9.80000019, 10, 0);
